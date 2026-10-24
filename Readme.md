@@ -53,8 +53,7 @@ src/
     │   ├── mapper_params.yaml           # slam_toolbox parameters
     │   └── nav2_params.yaml             # Nav2 parameters
     ├── maps/                            # Saved map (my_world.yaml / .pgm)
-    └── worlds/                          # Gazebo worlds
-```
+    └── worlds/                          # maze.sdf (world used for mapping), test_world.sdf
 
 ## Requirements
 
