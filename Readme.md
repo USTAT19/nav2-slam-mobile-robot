@@ -54,6 +54,7 @@ src/
     │   └── nav2_params.yaml             # Nav2 parameters
     ├── maps/                            # Saved map (my_world.yaml / .pgm)
     └── worlds/                          # maze.sdf (world used for mapping), test_world.sdf
+```
 
 ## Requirements
 
@@ -125,3 +126,4 @@ ros2 run nav2_map_server map_saver_cli -f src/my_robot_bringup/maps/my_world
 ## Credits
 
 Built following the Nav2 course by Robotics Back End, then applied to my own robot.
+The maze world (`maze.sdf`) was generated with a maze generator.
