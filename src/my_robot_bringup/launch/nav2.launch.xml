@@ -1,0 +1,10 @@
+<launch>
+  <let name="map_path" value="$(find-pkg-share my_robot_bringup)/maps/my_world.yaml"/>
+  <let name="params_path" value="$(find-pkg-share my_robot_bringup)/config/nav2_params.yaml"/>
+
+  <include file="$(find-pkg-share nav2_bringup)/launch/bringup_launch.py">
+    <arg name="use_sim_time" value="true"/>
+    <arg name="map" value="$(var map_path)"/>
+    <arg name="params_file" value="$(var params_path)"/>
+  </include>
+</launch>
