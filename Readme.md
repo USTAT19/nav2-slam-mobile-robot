@@ -2,7 +2,19 @@
 
 Autonomous navigation for a custom differential-drive robot, built with **ROS 2 Jazzy**, **Nav2** and **SLAM Toolbox** in **Gazebo Harmonic**. The robot has a 2D lidar, a front camera and a small 2-joint arm. I mapped the world with SLAM and then navigated it with Nav2 on the saved map.
 
-<!-- Add your demo video or GIF here, for example: ![Demo](docs/demo.gif) -->
+## Demo
+
+**Simulation world (Gazebo)**
+
+![Gazebo maze world with the robot](docs/gazebo_world.png)
+
+**Navigation in RViz: map, costmaps and planned path**
+
+![RViz navigation](docs/rviz_navigation.png)
+
+**Map built with SLAM Toolbox**
+
+![SLAM map](docs/slam_map.png)
 
 ## What's in this project
 
